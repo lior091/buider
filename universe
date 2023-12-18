@@ -1,0 +1,1036 @@
+import * as React from "react";
+
+function MyComponent(props) {
+  return (
+    <div className="bg-slate-100 flex flex-col items-stretch mb-0 pb-12">
+      <div className="bg-black flex w-full items-stretch justify-between gap-5 px-4 max-md:max-w-full max-md:flex-wrap">
+        <div className="flex items-start justify-between gap-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ace5aee2a23b7f3bb770d289c00a55ee89266554f01f2cc6afd1bd414fef232?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+            className="aspect-[3.66] object-contain object-center w-[106px] overflow-hidden self-center shrink-0 max-w-full my-auto"
+          />
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d27a77dffd06d100e4c9462c5ca0ba780646aa43116c003f6b23a958b06ef5b9?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+            className="aspect-[0.02] object-contain object-center w-px stroke-[1px] stroke-zinc-700 overflow-hidden self-stretch shrink-0 max-w-full"
+          />
+          <div className="self-center flex basis-[0%] flex-col items-stretch my-auto">
+            <div className="text-slate-500 text-xs tracking-wide">
+              CURRENT ACCOUNT
+            </div>
+            <div className="text-white text-sm font-semibold tracking-wide whitespace-nowrap mt-3">
+              Your_Account_Name
+            </div>
+          </div>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d27a77dffd06d100e4c9462c5ca0ba780646aa43116c003f6b23a958b06ef5b9?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+            className="aspect-[0.02] object-contain object-center w-px stroke-[1px] stroke-zinc-700 overflow-hidden self-stretch shrink-0 max-w-full"
+          />
+          <div className="self-center flex justify-between gap-5 my-auto px-px py-0.5 items-start max-md:justify-center max-sm:hidden">
+            <div className="flex items-stretch gap-3">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/aeb3f1eaf5b1af2db643aa44015e09c8435f16a759ff5e15e55d55c674690dd4?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                className="aspect-[0.94] object-contain object-center w-[15px] fill-white overflow-hidden shrink-0 max-w-full"
+              />
+              <div className="text-white text-sm font-semibold leading-5 self-center my-auto">
+                Home
+              </div>
+            </div>
+            <div className="flex items-stretch gap-2.5">
+              <div className="flex-col fill-neutral-400 overflow-hidden relative flex aspect-[0.9375] w-[15px] justify-center items-center">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a3de2e48f30269a87a2d4e380f0a4521ef1d339f377e724ca28329e47f66709f?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="absolute h-full w-full object-cover object-center inset-0"
+                />
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/0e552cf534f580f353517b1a1aa634a053a276acc2475d188a7bc4e58f0a714e?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="aspect-[0.94] object-contain object-center w-full fill-white overflow-hidden"
+                />
+              </div>
+              <div className="text-neutral-400 text-sm font-semibold leading-5 grow whitespace-nowrap self-start">
+                Application
+              </div>
+            </div>
+            <div className="flex items-stretch gap-3">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2eab19267f9adce921b8bbac30e6b34aa5d520cbf49d18ef9caef89f645dd123?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                className="aspect-[1.07] object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
+              />
+              <div className="text-white text-sm font-semibold leading-5 self-start">
+                Network
+              </div>
+            </div>
+            <div className="flex items-stretch gap-2.5">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/75582b1cb103fedce91b35b24bcdc64e57a287622b9cee9f6c01edfcf10a4b36?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                className="aspect-square object-contain object-center w-4 fill-white overflow-hidden shrink-0 max-w-full"
+              />
+              <div className="text-white text-sm font-semibold leading-5 self-center my-auto">
+                Data
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="justify-between items-center flex gap-5 pl-20 max-md:max-w-full max-md:flex-wrap max-md:pl-5 max-sm:hidden">
+          <div className="flex items-stretch gap-2 my-auto">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/1b8a6a7015c494eae3a1eeea34ad8ee616477a4ed5534ee827da516e285503f1?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+              className="aspect-square object-contain object-center w-4 fill-white overflow-hidden shrink-0 max-w-full"
+            />
+            <div className="text-white text-sm font-semibold leading-5 self-center my-auto">
+              Search
+            </div>
+          </div>
+          <div className="self-stretch flex items-stretch justify-between gap-3.5 max-md:justify-center">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/89dc3b048973744f93b32a470eb36c3e8f4271ca99fa3da0860dbe459667e55e?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+              className="aspect-[0.02] object-contain object-center w-px stroke-[1px] stroke-zinc-700 overflow-hidden shrink-0 max-w-full"
+            />
+            <div className="justify-center items-stretch self-center flex gap-1 my-auto px-1.5 py-1 rounded-lg">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/be68f79ab8da116c2bc67f1dcc90232d582877ed4f6ef38f33bc170b3ec04b5b?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
+              />
+              <div className="text-white text-sm font-semibold leading-5 self-center my-auto">
+                help
+              </div>
+            </div>
+            <div className="justify-center items-stretch self-center flex gap-1 my-auto px-1.5 py-1 rounded-lg">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c9e208c2c34fe56df78225be951666438db504d229fe1501134fb77eed9befa0?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full"
+              />
+              <div className="text-white text-sm font-semibold leading-5 self-center my-auto">
+                Account
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="items-center flex justify-between gap-2.5 px-4 py-3.5 max-md:max-w-full max-md:flex-wrap">
+        <div className="items-stretch flex gap-2 my-auto pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
+          <div className="items-stretch flex justify-between gap-2">
+            <div className="text-blue-600 text-xs leading-5 tracking-normal grow whitespace-nowrap">
+              Breadcrumb 1
+            </div>
+            <div className="text-neutral-900 text-sm leading-5 tracking-normal whitespace-nowrap">
+              /
+            </div>
+          </div>
+          <div className="justify-between flex gap-2.5 px-px py-1 items-start">
+            <div className="text-blue-600 text-sm leading-5 tracking-normal mt-2.5">
+              . . .
+            </div>
+            <div className="text-neutral-900 text-sm leading-5 tracking-normal self-stretch">
+              /
+            </div>
+          </div>
+          <div className="items-stretch flex justify-between gap-2">
+            <div className="text-blue-600 text-xs leading-5 tracking-normal grow whitespace-nowrap">
+              Breadcrumb 1
+            </div>
+            <div className="text-neutral-900 text-sm leading-5 tracking-normal whitespace-nowrap">
+              /
+            </div>
+          </div>
+          <div className="text-neutral-800 text-xs leading-5 tracking-normal grow whitespace-nowrap">
+            Website url
+          </div>
+        </div>
+        <div className="text-blue-600 text-xs leading-4 tracking-wide underline self-stretch grow whitespace-nowrap">
+          <span className="text-gray-500">
+            Generated on 18 Oct 20 21:20:53{" "}
+          </span>
+          <span className="text-blue-600">Refresh</span>
+        </div>
+      </div>
+      <div className="bg-slate-300 min-h-[1px] w-full max-md:max-w-full" />
+      <div className="items-stretch flex w-full flex-col px-6 py-5 max-md:max-w-full max-md:mb-10 max-md:px-5">
+        <div className="items-stretch flex justify-between gap-3.5 max-md:max-w-full max-md:flex-wrap">
+          <div className="items-stretch rounded shadow bg-white flex gap-0 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+            <div className="bg-white flex grow basis-[0%] flex-col pl-4 pr-20 py-4 self-start items-start max-md:pr-5">
+              <div className="text-neutral-800 text-sm leading-5 tracking-wide whitespace-nowrap">
+                Websites
+              </div>
+              <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap">
+                250
+              </div>
+            </div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0cd7a9b00076f49ebc6b7e82e831eb98d2a868df2c538c610cf8c502d9f0c13?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+              className="aspect-[0.01] object-contain object-center w-px overflow-hidden shrink-0 max-w-full"
+            />
+            <div className="items-stretch bg-white flex grow basis-[0%] flex-col pl-4 pr-16 py-4 self-start max-md:pr-5">
+              <div className="text-neutral-800 text-sm leading-5 tracking-wide whitespace-nowrap">
+                Protected Networks
+              </div>
+              <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal">
+                34
+              </div>
+            </div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0cd7a9b00076f49ebc6b7e82e831eb98d2a868df2c538c610cf8c502d9f0c13?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+              className="aspect-[0.01] object-contain object-center w-px overflow-hidden shrink-0 max-w-full"
+            />
+            <div className="bg-white flex grow basis-[0%] flex-col pl-4 pr-20 py-4 self-start items-start max-md:pr-5">
+              <div className="text-neutral-800 text-sm leading-5 tracking-wide whitespace-nowrap">
+                Protected IPs
+              </div>
+              <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal">
+                12
+              </div>
+            </div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0cd7a9b00076f49ebc6b7e82e831eb98d2a868df2c538c610cf8c502d9f0c13?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+              className="aspect-[0.01] object-contain object-center w-px overflow-hidden shrink-0 max-w-full"
+            />
+            <div className="bg-white flex grow basis-[0%] flex-col pl-4 pr-20 py-4 self-start items-start max-md:pr-5">
+              <div className="text-neutral-800 text-sm leading-5 tracking-wide whitespace-nowrap">
+                DNS zones
+              </div>
+              <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal">
+                12
+              </div>
+            </div>
+          </div>
+          <div className="justify-between items-stretch rounded shadow bg-white flex gap-5 px-6 py-4 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:px-5">
+            <div className="items-stretch bg-white flex grow basis-[0%] flex-col py-1">
+              <div className="text-gray-500 text-xs leading-4 tracking-wide whitespace-nowrap">
+                Time Picker
+              </div>
+              <div className="items-stretch flex justify-between gap-5 px-px">
+                <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                  Last 14 Days
+                </div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/e56670324e9589b41a1638bf10a28bfff33bbb8022b72feab8c99d7fc27f37b1?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                />
+              </div>
+            </div>
+            <div className="items-center self-center flex gap-2 my-auto">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/a2d3ea7b8e20fb00cca482878d41acc412d9a334c153cb6ed65bd0785f6e43d3?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+              />
+              <div className="text-gray-500 text-sm font-medium leading-6 tracking-wide self-stretch grow whitespace-nowrap">
+                Download report
+              </div>
+            </div>
+            <div className="items-center self-center flex gap-2 my-auto px-px">
+              <div className="items-stretch flex grow basis-[0%] flex-col my-auto py-0.5">
+                <div className="items-stretch flex aspect-[6.666666666666667] flex-col justify-center px-0.5">
+                  <div className="bg-gray-500 flex shrink-0 h-[3px] flex-col" />
+                </div>
+                <div className="items-stretch flex aspect-[6.666666666666667] flex-col justify-center px-0.5">
+                  <div className="bg-gray-500 flex shrink-0 h-[3px] flex-col" />
+                </div>
+                <div className="items-stretch flex aspect-[6.666666666666667] flex-col justify-center px-0.5">
+                  <div className="bg-gray-500 flex shrink-0 h-[3px] flex-col" />
+                </div>
+              </div>
+              <div className="text-gray-500 text-sm font-medium leading-6 tracking-wide self-stretch grow whitespace-nowrap">
+                Arrange
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="items-stretch rounded shadow bg-white flex flex-col mt-4 max-md:max-w-full">
+          <div className="justify-center items-stretch rounded bg-white flex flex-col pt-6 max-md:max-w-full">
+            <div className="justify-between items-stretch flex gap-5 mx-6 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5">
+              <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal">
+                Security
+              </div>
+              <div className="text-blue-600 text-right text-sm font-medium leading-6 tracking-wide">
+                Security Dashboard
+              </div>
+            </div>
+            <div className="bg-slate-300 shrink-0 h-px mt-6 max-md:max-w-full" />
+          </div>
+          <div className="items-stretch flex flex-col bg-white p-6 max-md:max-w-full max-md:px-5">
+            <div className="items-stretch flex justify-between gap-5 self-center max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+              <div className="items-start bg-white flex grow basis-[0%] flex-col">
+                <div className="items-stretch self-stretch flex justify-between gap-2">
+                  <div className="items-stretch flex justify-between gap-1 pr-3.5">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                      WAF Violations
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0486e3a52ce0e2f8464119e6ae169551e8d3d64f10a61a9c08ec560b448844d8?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                    />
+                  </div>
+                  <div className="items-center rounded border border-[color:var(--Gray-300,#CBD6E0)] self-center flex aspect-[2.6875] flex-col justify-center my-auto pl-1 pr-6 border-solid max-md:pr-5">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c8c824e56d4aedd78412f1b014dc3f382be902c4193785c17e91671ce646793e?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden"
+                    />
+                  </div>
+                </div>
+                <div className="items-stretch self-stretch flex justify-between gap-3.5">
+                  <div className="items-stretch flex justify-between gap-1.5 px-0.5">
+                    <div className="items-stretch flex justify-between gap-0.5">
+                      <div className="text-neutral-800 text-2xl font-extrabold leading-8 grow whitespace-nowrap">
+                        32K
+                      </div>
+                      <div className="items-stretch self-center flex grow basis-[0%] flex-col my-auto">
+                        <div className="bg-white flex shrink-0 h-1.5 flex-col" />
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide whitespace-nowrap">
+                          sessions
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch self-center flex gap-0.5 my-auto">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/babfd558ae2d99d6af9d88ce3583155bccf0ba91ecc99debd1f0b416f804fe66?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                        className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                      />
+                      <div className="text-red-600 text-center text-xs leading-4 tracking-wide grow whitespace-nowrap">
+                        23%
+                      </div>
+                    </div>
+                  </div>
+                  <div className="items-stretch self-center flex grow basis-[0%] flex-col my-auto py-1">
+                    <div className="bg-white flex shrink-0 h-1.5 flex-col" />
+                    <div className="text-gray-500 text-sm leading-5 tracking-wide whitespace-nowrap ml-3.5 mt-1.5 self-start max-md:ml-2.5">
+                      48.2k events
+                    </div>
+                  </div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/245f7f3796491eab33a8ded28022fae132aeb8ddb10bffa080f65196dbb6345e?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="aspect-[34] object-contain object-center w-[272px] items-start self-center overflow-hidden mt-6"
+                />
+                <div className="items-stretch self-stretch flex justify-between gap-2 mt-3">
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/53a6001c3cd370a046bae4022b28e618e107c9e52b2c82e68d47d424132ea7fe?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Alerted events 40k
+                    </div>
+                  </div>
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/4f373b64f304f7444acb3a8a28f78ad2f41ad66dd6f57d8fc1fbe54d9a332710?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Blocked events 8.2k
+                    </div>
+                  </div>
+                </div>
+                <div className="text-blue-600 text-sm leading-5 tracking-wide self-stretch mt-6">
+                  View Dashboard
+                </div>
+              </div>
+              <div className="items-start bg-white flex grow basis-[0%] flex-col">
+                <div className="items-stretch self-stretch flex justify-between gap-2">
+                  <div className="items-stretch flex justify-between gap-1 pr-1.5">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                      Mitigated Bot attacks
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/d29459ee27bfa5eed5e50ec4d101c3b5e1730e3f49cc450a0b7f9d1f9c3178da?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                    />
+                  </div>
+                  <div className="items-center rounded border border-[color:var(--Gray-300,#CBD6E0)] self-center flex aspect-[2.0625] flex-col justify-center my-auto pl-1 pr-3.5 border-solid">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcec0f810757a4ddf6b2ef6e8186ed3774a4f8fd1c2752441b789a3649740335?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden"
+                    />
+                  </div>
+                </div>
+                <div className="items-stretch self-stretch flex justify-between gap-3 pr-2.5">
+                  <div className="text-neutral-800 text-2xl font-extrabold leading-8">
+                    35K
+                  </div>
+                  <div className="items-stretch self-center flex gap-0.5 my-auto">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc1d19de21ea593eb0b159a195d49ff820ff764811788b2fe665aeaf0d749119?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-red-600 text-center text-xs leading-4 tracking-wide">
+                      23%
+                    </div>
+                  </div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2255b5dc04818b9594eb6e93a70ebc5fb362bbeb60ba8bc1fb88237b33df5321?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="aspect-[34] object-contain object-center w-[272px] items-start self-center overflow-hidden mt-6"
+                />
+                <div className="items-stretch self-stretch flex gap-2 mt-3 max-md:justify-center">
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/41c6bb1eaba2932915625f46b6b6021a81df96dd98cba2a22c659077ba472eee?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      ATO 10K
+                    </div>
+                  </div>
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1a829a1ceb71face965e9afc49bb24f78dbc4e4070270b395ad12fd4a82861b?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      ABP 20K
+                    </div>
+                  </div>
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/80001aacf539802113ae9d178f0d8ed5d1a737b7022e3eedd6d2238c94aba274?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Client Classification 5K
+                    </div>
+                  </div>
+                </div>
+                <div className="items-stretch self-stretch flex gap-3 mt-6 max-md:justify-center">
+                  <div className="text-blue-600 text-sm leading-5 tracking-wide whitespace-nowrap">
+                    ATO
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/1cf0f52d10bbe1c181df8fe6f3314a5a25bd593ca5919f1d27e8fb7c4eb4a656?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-[0.05] object-contain object-center w-px overflow-hidden shrink-0 max-w-full"
+                  />
+                  <div className="text-blue-600 text-sm leading-5 tracking-wide">
+                    ABP
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/1cf0f52d10bbe1c181df8fe6f3314a5a25bd593ca5919f1d27e8fb7c4eb4a656?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-[0.05] object-contain object-center w-px overflow-hidden shrink-0 max-w-full"
+                  />
+                  <div className="text-blue-600 text-sm leading-5 tracking-wide grow whitespace-nowrap">
+                    Client Classification
+                  </div>
+                </div>
+              </div>
+              <div className="items-start bg-white flex grow basis-[0%] flex-col">
+                <div className="items-stretch self-stretch flex justify-between gap-2">
+                  <div className="items-stretch flex justify-between gap-1 pr-1.5">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                      DDoS Network attacks
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa13ccd0fe9267aeddd124aebf1a3b510182a5207515eba4d5a20d0e267de83c?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                    />
+                  </div>
+                  <div className="items-center rounded border border-[color:var(--Gray-300,#CBD6E0)] self-center flex aspect-[2] flex-col justify-center my-auto pl-1 pr-3 border-solid">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/67f012894330fa2c86496d3b274215259c5b65b5669949b88ce99c598996d77c?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden"
+                    />
+                  </div>
+                </div>
+                <div className="items-stretch self-stretch flex justify-between gap-3 pr-3">
+                  <div className="text-neutral-800 text-2xl font-extrabold leading-8">
+                    18
+                  </div>
+                  <div className="items-stretch self-center flex gap-0.5 my-auto">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/44c8a8d48ffe7a5cfe572cad55716a66890bb8fa47c6bbe619a89f1bf15e58e9?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-red-600 text-center text-xs leading-4 tracking-wide">
+                      23%
+                    </div>
+                  </div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b63f7d8d26ae49679441a7e64d804d33e470a66b96f763bdce8a736d1f79df4?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="aspect-[33.88] object-contain object-center w-[271px] items-start self-center overflow-hidden mt-6"
+                />
+                <div className="items-stretch self-stretch flex gap-2 mt-3 pr-20 max-md:pr-5">
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/af6e3fc96b1b47b93cb0d1393f6872266e3e550e5da845a0ea765c5649d2ed0a?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Small 2
+                    </div>
+                  </div>
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c91d3ff56442916174a356737b591decaec39401fd1996d43df893317e83a50e?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Medium 10
+                    </div>
+                  </div>
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c91d3ff56442916174a356737b591decaec39401fd1996d43df893317e83a50e?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Large 6
+                    </div>
+                  </div>
+                </div>
+                <div className="items-stretch self-stretch flex gap-3 mt-6 max-md:justify-center">
+                  <div className="text-blue-600 text-sm leading-5 tracking-wide grow whitespace-nowrap">
+                    Website DDoS (8)
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a76da944ce4e86ba51e524a8ccad3e10b764cf7efcd67a05830e69f69b49f6f?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-[0.05] object-contain object-center w-px overflow-hidden shrink-0 max-w-full"
+                  />
+                  <div className="text-blue-600 text-sm leading-5 tracking-wide grow whitespace-nowrap">
+                    Network DDoS (10)
+                  </div>
+                </div>
+              </div>
+              <div className="bg-slate-300 w-px shrink-0 h-[152px]" />
+              <div className="items-start bg-white flex grow basis-[0%] flex-col -mr-px">
+                <div className="items-stretch self-stretch flex justify-between gap-2">
+                  <div className="items-stretch flex justify-between gap-1 px-px">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide grow whitespace-nowrap">
+                      Incidents by Attack Analitycs
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0d02ce909bcf771cb079ed371a6a1d3b799ca3e7590a0e9aae41753bbe46149b?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                    />
+                  </div>
+                  <div className="items-center rounded border border-[color:var(--Gray-300,#CBD6E0)] self-center flex aspect-[1.625] flex-col justify-center my-auto px-1.5 border-solid">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/045751d669d4156b28f845245b4b9c7069984ac459e0b3923c3968a9313bf2ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 overflow-hidden"
+                    />
+                  </div>
+                </div>
+                <div className="items-stretch self-stretch flex justify-between gap-3 pr-3">
+                  <div className="text-neutral-800 text-2xl font-extrabold leading-8">
+                    25
+                  </div>
+                  <div className="items-stretch self-center flex gap-0.5 my-auto">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/ee8f529aa879ed63b8fd1f6700e17bab83c58ab48939a7a70b989132fc535938?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-red-600 text-center text-xs leading-4 tracking-wide">
+                      23%
+                    </div>
+                  </div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/94ca9c2e052511264dbc695509b45825d915e4d87b47bfd3653d2626138ce1fc?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                  className="aspect-[34] object-contain object-center w-[272px] items-start self-center overflow-hidden mt-6"
+                />
+                <div className="items-stretch self-stretch flex justify-between gap-2 mt-3">
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/b07e4f6a16f828b84162d5e614f366ee22049b8eaef50d9d8ee3460f6c02ce64?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Partially blocked 5
+                    </div>
+                  </div>
+                  <div className="items-stretch flex justify-between gap-1">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/01f43493a00d113d5fcfa2ea5f13b242af9253f5add7795669993518a26848e9?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                      className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                      Fully blocked 20
+                    </div>
+                  </div>
+                </div>
+                <div className="text-blue-600 text-sm leading-5 tracking-wide self-stretch mt-6">
+                  View Dashboard
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 max-md:max-w-full max-md:mt-10">
+              <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                <div className="flex flex-col items-stretch w-[70%] max-md:w-full max-md:ml-0">
+                  <div className="items-stretch self-stretch rounded bg-white flex grow flex-col w-full pt-9 max-md:max-w-full max-md:mt-8">
+                    <div className="items-center bg-white flex flex-col max-md:max-w-full">
+                      <div className="items-stretch self-stretch flex justify-between gap-0 mt-2 max-md:max-w-full max-md:flex-wrap">
+                        <div className="justify-between items-stretch flex basis-[0%] flex-col max-md:hidden">
+                          <div className="justify-center text-gray-500 text-xs leading-4 tracking-wide whitespace-nowrap">
+                            8k
+                          </div>
+                          <div className="bg-white flex shrink-0 h-px flex-col mt-10" />
+                          <div className="justify-center text-gray-500 text-xs leading-4 tracking-wide whitespace-nowrap mt-10">
+                            4k
+                          </div>
+                          <div className="bg-white flex shrink-0 h-px flex-col mt-9" />
+                          <div className="justify-center text-gray-500 text-xs leading-4 tracking-wide whitespace-nowrap mt-10">
+                            0
+                          </div>
+                          <div className="bg-white flex shrink-0 h-px flex-col mt-10" />
+                        </div>
+                        <div className="flex grow basis-[0%] flex-col pb-2 items-start max-md:max-w-full">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5bbcf5a2add14a2a0125b07b1689b27dd4dd930bf63da7cd4c124e781d41764b?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-[4.51] object-contain object-center w-full self-stretch overflow-hidden max-w-[753px] max-md:max-w-full"
+                          />
+                          <div className="flex w-[807px] max-w-full items-start justify-between gap-5 ml-4 max-md:flex-wrap max-md:justify-center">
+                            <div className="text-gray-500 text-center text-xs leading-4 tracking-wide mt-2 self-start">
+                              11:45
+                            </div>
+                            <div className="text-gray-500 text-center text-xs leading-4 tracking-wide mt-2 self-start">
+                              11:45
+                            </div>
+                            <div className="self-stretch flex flex-col items-end">
+                              <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/caaee79c175563fa0bc205a5c374f2eb2ac6a7bdc21050683bca0a4b4489141d?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                                className="aspect-[0.2] object-contain object-center w-px stroke-[0.5px] stroke-gray-400 overflow-hidden max-w-full"
+                              />
+                              <div className="text-gray-500 text-center text-xs leading-4 tracking-wide self-stretch whitespace-nowrap">
+                                12:00
+                              </div>
+                            </div>
+                            <div className="text-gray-500 text-center text-xs leading-4 tracking-wide mt-2 self-start">
+                              12:00
+                            </div>
+                            <div className="text-gray-500 text-center text-xs leading-4 tracking-wide mt-2 self-start">
+                              12:15
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="items-stretch flex gap-2 mt-2 pl-5 self-start max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+                        <div className="items-stretch flex justify-between gap-1">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/49f465453e67297383711d12792fcf4efdb51713b527ed1b708f02d65fd3a2ce?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                            WAF events 2435
+                          </div>
+                        </div>
+                        <div className="items-stretch flex justify-between gap-1">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/0f429fe6002d32c1836e9afd62c8bd7a86ba5c9c9d9a1f88ad72675865c61a8f?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                            Mitigated Bot events 234
+                          </div>
+                        </div>
+                        <div className="items-stretch flex justify-between gap-1">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/2034d71ab2620be2ab853466ceabc95c54b6e573d6f27a2afd714b52ccfb9827?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                            DDoS events 678
+                          </div>
+                        </div>
+                        <div className="items-stretch flex justify-between gap-1">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c301e6d947b2f89645ab2b9b9047aceec8144d911ccc18541e0a3ce3d44e5fdf?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-3 overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-gray-500 text-xs leading-3 tracking-wide grow whitespace-nowrap">
+                            ACL events 10
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+                  <div className="items-stretch bg-white flex w-full grow flex-col mx-auto max-md:mt-8">
+                    <div className="justify-between items-stretch flex w-full gap-5">
+                      <div className="items-stretch flex flex-col">
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide whitespace-nowrap">
+                          Top Attacked Websites
+                        </div>
+                        <div className="items-stretch flex justify-between gap-2 pr-1.5">
+                          <div className="text-gray-500 text-xs leading-4 tracking-wide">
+                            By Total Events
+                          </div>
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/19c09a10521c953d3e25e7f996ee1e39a24205c440b9bfb313d6541a058ed290?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
+                          />
+                        </div>
+                      </div>
+                      <div className="items-center flex gap-2 mt-1 self-start">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/6783f292d0162d3b2067154ce7aeec3a889628c4901ee9939f95e0860a65d3d9?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                          className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                        />
+                        <div className="text-gray-500 text-sm font-medium leading-6 tracking-wide self-stretch">
+                          Expand
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch shadow-sm bg-white flex justify-between gap-5 mt-4 pl-4 pr-12 py-3 max-md:pr-5">
+                      <div className="text-neutral-800 text-sm font-semibold leading-5 tracking-normal grow whitespace-nowrap">
+                        Website
+                      </div>
+                      <div className="text-neutral-800 text-sm font-semibold leading-5 tracking-normal whitespace-nowrap">
+                        Events
+                      </div>
+                    </div>
+                    <div className="bg-white flex w-full items-center justify-between gap-5 pl-4">
+                      <div className="text-neutral-800 text-sm leading-5 tracking-wide my-auto">
+                        www.site name.com
+                      </div>
+                      <div className="items-stretch flex gap-3 pl-5 pr-2 py-2.5 self-start">
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                          23K
+                        </div>
+                        <div className="items-stretch self-center flex gap-0.5 my-auto">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f39172c9d5b1efafd438a5a6053588a772916c168f675b2f09039e470bcaf0cf?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-red-600 text-center text-xs leading-4 tracking-wide grow whitespace-nowrap">
+                            40%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-slate-300 flex shrink-0 h-px flex-col" />
+                    <div className="bg-white flex w-full items-center justify-between gap-5 pl-4">
+                      <div className="text-neutral-800 text-sm leading-5 tracking-wide my-auto">
+                        www.site name.com
+                      </div>
+                      <div className="items-stretch flex gap-3 pl-5 pr-2 py-2.5 self-start">
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                          23K
+                        </div>
+                        <div className="items-stretch self-center flex gap-0.5 my-auto">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/49256ae8081e31674d93538a387b1d43862423bb20990ae66bd5f2e7fa21b60f?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-red-600 text-center text-xs leading-4 tracking-wide grow whitespace-nowrap">
+                            40%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-slate-300 flex shrink-0 h-px flex-col" />
+                    <div className="bg-white flex w-full items-center justify-between gap-5 pl-4">
+                      <div className="text-neutral-800 text-sm leading-5 tracking-wide my-auto">
+                        www.site name.com
+                      </div>
+                      <div className="items-stretch flex gap-3 pl-5 pr-2 py-2.5 self-start">
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                          23K
+                        </div>
+                        <div className="items-stretch self-center flex gap-0.5 my-auto">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/98cf59013ab5c010a74b5d2a90f85387a583aa2f3d5f9845f19383a66c716788?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-red-600 text-center text-xs leading-4 tracking-wide grow whitespace-nowrap">
+                            40%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-slate-300 flex shrink-0 h-px flex-col" />
+                    <div className="bg-white flex w-full items-center justify-between gap-5 pl-4">
+                      <div className="text-neutral-800 text-sm leading-5 tracking-wide my-auto">
+                        www.site name.com
+                      </div>
+                      <div className="items-stretch flex gap-3 pl-5 pr-2 py-2.5 self-start">
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                          23K
+                        </div>
+                        <div className="items-stretch self-center flex gap-0.5 my-auto">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/50b582d1aad1ba364056fe5db3791966d33d701f42e3f8002b43620899295cfd?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-red-600 text-center text-xs leading-4 tracking-wide grow whitespace-nowrap">
+                            40%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-slate-300 flex shrink-0 h-px flex-col" />
+                    <div className="bg-white flex w-full items-center justify-between gap-5 pl-4">
+                      <div className="text-neutral-800 text-sm leading-5 tracking-wide my-auto">
+                        www.site name.com
+                      </div>
+                      <div className="items-stretch flex gap-3 pl-5 pr-2 py-2.5 self-start">
+                        <div className="text-neutral-800 text-sm leading-5 tracking-wide">
+                          23K
+                        </div>
+                        <div className="items-stretch self-center flex gap-0.5 my-auto">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/74cc4a87ca5b7de173b49a1d4acaa55e50dfb90257e01560433bd8a3769317fd?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                            className="aspect-square object-contain object-center w-4 justify-center items-center overflow-hidden shrink-0 max-w-full"
+                          />
+                          <div className="text-red-600 text-center text-xs leading-4 tracking-wide grow whitespace-nowrap">
+                            40%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-slate-300 flex shrink-0 h-px flex-col" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="items-stretch rounded shadow bg-white flex flex-col mt-4 max-md:max-w-full" />
+        <div className="mt-4 max-md:max-w-full">
+          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+              <div className="items-start rounded shadow bg-white flex grow flex-col w-full max-md:max-w-full max-md:mt-5">
+                <div className="justify-center self-stretch rounded bg-white flex flex-col pt-6 items-start max-md:max-w-full">
+                  <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap ml-6 max-md:ml-2.5">
+                    Website configuration posture
+                  </div>
+                  <div className="bg-slate-300 self-stretch shrink-0 h-px mt-6 max-md:max-w-full" />
+                </div>
+                <div className="text-gray-500 text-xs leading-4 tracking-wide whitespace-nowrap ml-6 mt-6 self-start max-md:ml-2.5">
+                  Websites requiring attention
+                </div>
+                <div className="items-stretch self-stretch flex justify-between gap-0.5 mt-6 px-6 py-2 max-md:max-w-full max-md:flex-wrap max-md:px-5">
+                  <div className="items-stretch flex flex-col max-md:max-w-full">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide max-md:max-w-full">
+                      DNS configuration
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap">
+                        67
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide grow whitespace-nowrap mt-2 self-start">
+                        Not configured
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/11c6616c37ed40a97ba68eee6dff1a4a7f2b2345ea2a495348d0be35a61ce5ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                  />
+                </div>
+                <div className="bg-slate-300 self-stretch shrink-0 h-px mt-4 max-md:max-w-full" />
+                <div className="items-stretch self-stretch flex justify-between gap-0.5 mt-4 px-6 py-2 max-md:max-w-full max-md:flex-wrap max-md:px-5">
+                  <div className="items-stretch flex flex-col max-md:max-w-full">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide max-md:max-w-full">
+                      DDoS settings
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap">
+                        67
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide grow whitespace-nowrap mt-2 self-start">
+                        Not secure
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/11c6616c37ed40a97ba68eee6dff1a4a7f2b2345ea2a495348d0be35a61ce5ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                  />
+                </div>
+                <div className="bg-slate-300 self-stretch shrink-0 h-px mt-4 max-md:max-w-full" />
+                <div className="items-stretch self-stretch flex justify-between gap-0.5 mt-4 px-6 py-2 max-md:max-w-full max-md:flex-wrap max-md:px-5">
+                  <div className="items-stretch flex flex-col max-md:max-w-full">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide max-md:max-w-full">
+                      WAF settings
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap">
+                        67
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide grow whitespace-nowrap mt-2 self-start">
+                        Not secure
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/11c6616c37ed40a97ba68eee6dff1a4a7f2b2345ea2a495348d0be35a61ce5ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                  />
+                </div>
+                <div className="bg-slate-300 self-stretch shrink-0 h-px mt-4 max-md:max-w-full" />
+                <div className="items-stretch self-stretch flex justify-between gap-0.5 px-6 py-2 max-md:max-w-full max-md:flex-wrap max-md:px-5">
+                  <div className="items-stretch flex flex-col max-md:max-w-full">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide max-md:max-w-full">
+                      Certificates
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap">
+                        67
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide grow whitespace-nowrap mt-2 self-start">
+                        Expiration issues
+                      </div>
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap">
+                        67
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide grow whitespace-nowrap mt-2 self-start">
+                        Partially configured
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/11c6616c37ed40a97ba68eee6dff1a4a7f2b2345ea2a495348d0be35a61ce5ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                  />
+                </div>
+                <div className="bg-slate-300 self-stretch shrink-0 h-px max-md:max-w-full" />
+              </div>
+            </div>
+            <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+              <div className="items-stretch rounded shadow bg-white flex grow flex-col w-full max-md:max-w-full max-md:mt-4">
+                <div className="justify-center rounded bg-white flex flex-col pt-6 items-start max-md:max-w-full">
+                  <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal whitespace-nowrap ml-6 max-md:ml-2.5">
+                    Reliability
+                  </div>
+                  <div className="bg-slate-300 self-stretch shrink-0 h-px mt-6 max-md:max-w-full" />
+                </div>
+                <div className="bg-white flex flex-col pt-6 pb-12 px-6 items-start max-md:max-w-full max-md:px-5">
+                  <div className="justify-between items-center self-stretch flex w-full gap-5 py-1 max-md:max-w-full max-md:flex-wrap">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide my-auto">
+                      Website reliability status{" "}
+                    </div>
+                    <div className="items-center self-stretch flex justify-between gap-2">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b3c98db0913f0a1a53de3dd5fa788afcb52498febc1bfec47291df7c5109715?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                        className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                      />
+                      <div className="text-gray-500 text-sm font-medium leading-6 tracking-wide self-stretch">
+                        Expand
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-gray-500 text-xs leading-4 tracking-wide self-stretch mt-1 max-md:max-w-full">
+                    According to origin server availability
+                  </div>
+                  <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9ff2eedb8b8d1267a06dee1a2ea9954b248f1b42bfb387604ce11dafd0a19831?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-[1.87] object-contain object-center w-[221px] items-start rounded shadow-md overflow-hidden max-w-full mt-6"
+                  />
+                </div>
+                <div className="bg-slate-300 shrink-0 h-px max-md:max-w-full" />
+                <div className="items-stretch flex justify-between gap-0.5 mt-2 px-6 py-2 max-md:max-w-full max-md:flex-wrap max-md:px-5">
+                  <div className="items-stretch flex flex-col max-md:max-w-full">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide max-md:max-w-full">
+                      Network connections up
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal">
+                        8
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide mt-2 self-start">
+                        /12
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/11c6616c37ed40a97ba68eee6dff1a4a7f2b2345ea2a495348d0be35a61ce5ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                  />
+                </div>
+                <div className="bg-slate-300 shrink-0 h-px mt-2 max-md:max-w-full" />
+                <div className="items-stretch flex justify-between gap-0.5 mt-2 px-6 py-2 max-md:max-w-full max-md:flex-wrap max-md:px-5">
+                  <div className="items-stretch flex flex-col max-md:max-w-full">
+                    <div className="text-neutral-800 text-sm leading-5 tracking-wide max-md:max-w-full">
+                      IP connections up
+                    </div>
+                    <div className="items-stretch flex gap-2 self-start">
+                      <div className="text-neutral-800 text-lg font-medium leading-6 tracking-normal">
+                        4
+                      </div>
+                      <div className="text-gray-500 text-xs leading-4 tracking-wide mt-2 self-start">
+                        /4
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/11c6616c37ed40a97ba68eee6dff1a4a7f2b2345ea2a495348d0be35a61ce5ef?apiKey=b08af85131cc4098af55ed5d69faba6a&"
+                    className="aspect-square object-contain object-center w-4 overflow-hidden self-center shrink-0 max-w-full my-auto"
+                  />
+                </div>
+                <div className="bg-slate-300 shrink-0 h-px mt-2 max-md:max-w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
